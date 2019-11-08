@@ -9,7 +9,7 @@ class Login extends Component {
   render() {
     return (
       <div className="loginWrapper">
-        <h3 className="loginHeading text-center">Login with your social account</h3>
+        <h3 style="color:#c41e3a;", className="loginHeading text-center">Login with your social account</h3>
         <div className="btnWrapper">
           <button className="loginBtn fbBtn">Facebook Login</button>
           <button className="loginBtn googleBtn">Google Login</button>
